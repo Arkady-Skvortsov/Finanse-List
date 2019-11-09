@@ -1,0 +1,628 @@
+		@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lobster');
+        @import url('https://fonts.googleapis.com/css?family=Bangers');
+        @import url('https://fonts.googleapis.com/css?family=Sofia');
+        @import url('https://fonts.googleapis.com/css?family=Yeon+Sung');
+
+        * {
+        	margin: 0;
+        	padding: 0;
+            height: 1000px;
+        }
+
+        #main-theme {
+        	font-size: 35px;
+        	font-family: 'Fjalla One', sans-serif;
+        	position: absolute;
+        	transition: 800ms ease;
+        	-o-transition: 800ms ease;
+        	-mozila-transition: 800ms ease;
+        	-webkit-transition: 800ms ease;
+        	margin-top: 100px;
+        	margin-left: 650px;
+        } 
+
+        #main-theme:hover {
+        	color: orange;
+            text-shadow: 0 0 20px black;
+        }
+
+        .finanse-block {
+        	position: absolute;
+        	height: 150px;
+        	width: 1200px;
+        	background-color: white;
+        	margin-top: 200px;
+        	margin-left: 10px;
+        }
+
+        .finanse-block form {
+        	height: 100px;
+        	margin-left: 400px;
+        	margin-top: 50px;
+        } 
+
+        .finanse-block form #finanse-list {
+            height: 50px;
+            font-size: 25px;
+            font-family: 'Lobster', cursive;
+        	width: 700px;
+        	cursor: pointer;
+        	padding-left: 20px;
+        	transition: 700ms ease;
+        	-o-transition: 700ms ease;
+        	-mozila-transition: 700ms ease;
+        	-webkit-transition: 700ms ease;
+        }
+
+        .finanse-block form #finanse-list:hover {
+        	box-shadow: 0 0 25px blue;
+        }
+
+        .btn-block {
+            position: absolute;
+            margin-left: 1134px;
+            margin-top: 220px;
+            height: 54px;
+            cursor: pointer;
+            width: 150px;
+            background-color: orange;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+        }
+
+        .btn-block #btn {
+            font-size: 25px;
+            position: absolute;
+            font-family: 'Lobster', cursive;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        .btn-block:hover {
+            background-color: black;
+        }
+
+        .btn-block #btn:hover {
+            color: white;
+        }           
+        
+        .valute {
+            border: 3px solid black;
+            height: 100px;
+            width: 300px;
+            background-color: black;
+            position: absolute;
+            margin-left: 410px;
+            margin-top: 320px;
+        }
+
+        .valute .dollar {
+            height: 100px;
+            width: 150px;
+            border-right: 1px solid white;
+            cursor: pointer;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .valute .dollar .d {
+            font-size: 50px;
+            margin-left: 65px;
+            margin-top: 15px;
+            position: absolute;
+            font-family: 'Lobster', cursive;
+            color: white;
+            cursor: pointer;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .valute .dollar .d:hover {
+            color: green;
+            text-shadow: 0 0 15px green;
+        }
+
+        .valute .euro {
+            height: 100px;
+            width: 150px;
+            border-left: 1px solid white;
+            cursor: pointer;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .valute .euro .e {
+            font-size: 50px;
+            position: absolute;
+            font-family: 'Lobster', cursive;
+            margin-left: 205px;
+            top: 15px;
+            color: white;
+            cursor: pointer;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .valute .euro .e:hover {
+            color: blue;
+            text-shadow: 0 0 15px blue;
+        }
+
+        .dollar-block {
+            position: absolute;
+            height: 350px;
+            width: 300px;
+            border-bottom-right-radius: 30px;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+            background-color: black;
+            border: 3px solid black;
+            margin-left: 410px;
+            margin-top: 600px;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .dollar-block:hover {
+            transform: translateY(25px);
+            box-shadow: 25px 0px 25px grey;
+        } 
+
+        .dollar-block .main-dollar {
+            height: 100px;
+            width: 300px;
+            background-color: black;
+            border-bottom: 5px solid white;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+        .dollar-block .main-dollar p {
+            font-size: 50px;
+            font-family: 'Lobster', cursive;
+            text-align: center;
+            padding-top: 20px;
+            color: white;
+            cursor: pointer;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .dollar-block .main-dollar p:hover {
+            color: gold;
+        }
+
+        .dollar-block #cash1 {
+            font-size: 50px;
+            font-family: 'Philosopher', sans-serif;
+            text-align: center;
+            margin-top: 90px;
+            color: white;
+            cursor: pointer;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+        }
+
+        .dollar-block #f1 {
+            font-size: 50px;
+            font-family: 'Philosopher', sans-serif;
+            color: white;
+            margin-top: -1000px;
+            margin-left: 205px;
+            position: absolute;
+            cursor: pointer;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+        }
+        
+        .dollar-block #f1:hover {
+            color: green;
+        }
+
+        .dollar-block #cash1:hover {
+            color: green;
+        }
+
+        .euro-block {
+            height: 350px;
+            width: 300px;
+            position: absolute;
+            background-color: black;
+            margin-top: 600px;
+            margin-left: 910px;
+            border: 3px solid black;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .euro-block:hover {
+            transform: translateY(25px);
+            box-shadow: 25px 0 25px grey;
+        }
+
+        .euro-block .main-euro {
+            height: 100px;
+            width: 300px;
+            background-color: black;
+            border: ;
+            border-bottom: 5px solid white;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+        .euro-block .main-euro p {
+            font-size: 50px;
+            font-family: 'Lobster', cursive;
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+            cursor: pointer;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .euro-block .main-euro p:hover {
+            color: gold;
+        }
+
+        .euro-block #cash2 {
+            font-size: 50px;
+            font-family: 'Philosopher', sans-serif;
+            text-align: center;
+            margin-top: 90px;
+            color: white;
+            cursor: pointer;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+        }
+
+        .euro-block #f2 {
+            font-size: 50px;
+            font-family: 'Philosopher', sans-serif;
+            margin-left: 205px;
+            color: white;
+            margin-top: -1000px;
+            cursor: pointer;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+        }
+
+        .euro-block #f2:hover {
+            color: blue;
+        }
+
+        .euro-block #cash2:hover {
+            color: blue;
+        }
+
+        .minus-block {
+            position: absolute;
+            height: 54px;
+            width: 150px;
+            margin-top: 280px;
+            margin-left: 1134px;
+            cursor: pointer;
+            background-color: orange;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }
+
+        .minus-block:hover {
+            background-color: black;
+        }
+
+        .minus-block #btn2 {
+            font-size: 25px;
+            font-family: 'Lobster', cursive;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 45px;
+            color: black;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+        }        
+
+        .minus-block #btn2:hover {
+            color: white;
+        }
+
+        .information-block {
+            height: 50px;
+            width: 500px;
+            z-index: -1;
+            position: absolute;
+            margin-top: 250px;
+            margin-left: 550px;
+            background-color: black;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 2s ease;
+            -o-transition: 2s ease;
+            -mozila-transition: 2s ease;
+            -webkit-transition: 2s ease;
+        } 
+
+        .information-block.show {
+            opacity: .4;
+            transform: translateY(-25px);
+        }
+
+        .information-block.show2 {
+           opacity: .8;
+           transform: translateY(-50px);
+        }
+
+        .information-block.show3 {
+            opacity: 1;
+            transform: translateY(-70px);
+            z-index: 1;
+        }
+
+        .information-block .t {
+            font-size: 25px;
+            font-family: 'Lobster', cursive;
+            color: green;
+            cursor: pointer;
+            margin-top: 10px;
+            text-align: center;
+            transition: 800ms ease;
+            -o-transition: 800ms ease;
+            -webkit-transition: 800ms ease;
+            -mozila-transition: 800ms ease;
+        }
+
+        .information-block .t.color {
+            color: red;
+        }
+
+        .information-block .t:hover {
+            color: white;
+        }
+
+        .history-block {
+            height: 2350px;
+            width: 350px;
+            position: absolute;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin-left: 20px;
+            margin-top: 250px;
+            border: 5px solid black;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+        }
+
+        .history-block .history-list {
+            height: 100px;
+            width: 350px;
+            background-color: yellow;
+            border: 1px solid black;
+            border-bottom: 5px solid black;
+            cursor: pointer;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+        }
+
+        .history-block .history-list:hover {
+            opacity: 0.7;
+        }
+
+        .history-block .history-list h2 {
+            font-size: 30px;
+            font-family: 'Lobster', cursive;
+            margin-left: 125px;
+            position: absolute;
+            margin-top: 35px;
+        }
+
+        .history-block .b {
+            height: 100px;
+            width: 350px;
+            border-bottom: 3px solid orange;
+            border-top: 3px solid orange;
+            margin-top: 10px;
+            background-color: black;
+        }
+
+        .history-block .b.hide {
+            display: none
+        }
+
+        .history-block .b .znak {
+            font-size: 60px;
+            font-family: 'Sofia', cursive;
+            margin-left: 10px;
+            margin-top: -10px;
+            position: absolute;
+            color: green;
+            transition: transform 700ms ease-in;
+            -o-transition: transform 700ms ease-in;
+            -mozila-transition: transform 700ms ease-in;
+            -webkit-transition: transform 700ms ease-in;
+        }
+
+        .history-block .b .znak:hover {
+            transform: rotateY(-180deg);
+        }
+
+        .history-block .b .syma {
+            font-size: 30px;
+            cursor: pointer;
+            font-family: 'Lobster', cursive;
+            margin-left: 40px;
+            margin-top: 22px;
+            position: absolute;
+            color: white;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+        }
+
+        .history-block .b .syma:hover {
+            color: green;
+        }
+
+        .history-block .b .choice {
+            height: 50px;
+            width: 50px;
+            margin-top: 20px;
+            position: absolute;
+            background-color: white;
+            border-radius: 25px;
+            margin-left: 295px;
+            cursor: pointer;
+        }
+
+        .history-block .b .choice .choice_znak {
+            font-size: 40px;
+            position: absolute;
+            font-family: 'Lobster', cursive;
+            margin-left: 15px;
+            margin-top: 2px;
+            color: green;
+            cursor: pointer;
+        }
+
+        .history-block .b .time_block {
+            height: 20px;
+            width: 220px;
+            background-color: white;
+            margin-left: 105px;
+            position: absolute;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-top: 80px;
+            transition: 900ms ease-in-out;
+            -o-transition: 900ms ease-in-out;
+            -mozila-transition: 900ms ease-in-out;
+            -webkit-transition: 900ms ease-in-out;
+        }
+
+        .history-block .b .time_block:hover {
+            opacity: .7;
+        }
+
+        .history-block .b .time_block .data_time {
+            font-size: 15px;
+            letter-spacing: .1em;
+            margin-top: 0;
+            position: absolute;
+            margin-left: 40px; 
+            font-family: 'Yeon Sung', cursive;           
+        }
+        
+        .clearBlock {
+            height: 51.5px;
+            width: 350px;
+            position: absolute;
+            border-bottom-left-radius: 17px;
+            border-bottom-right-radius: 17px;
+            cursor: pointer;
+            margin-left: 25px;   
+            border-top: 5px solid black;
+            margin-top: 2548px;
+            background-color: gold;
+        }
+
+        .clearBlock #clear_btn {
+           font-size: 25px;
+           font-family: 'Lobster', cursive;
+           margin-top: 10px;
+           position: absolute;
+           margin-left: 115px;
+           transition: 900ms ease-in-out;
+           -o-transition: 900ms ease-in-out;
+           -mozila-transition: 900ms ease-in-out;
+           -webkit-transition: 900ms ease-in-out;
+        }
+
+        .clearBlock #clear_btn.clear {
+            box-shadow: 0 0 80px red;
+        }
+
+        .clearBlock #clear_btn:hover {
+            color: silver;
+        }
+
+        .cash-clear-block {
+            height: 100px;
+            width: 400px;
+            border-radius: 30px;
+            cursor: pointer;
+            background-color: orange;
+            position: absolute;
+            margin-left: 600px;
+            margin-top: 1000px;
+            transition: 900ms ease-in;
+            -o-transition: 900ms ease-in;
+            -mozila-transition: 900ms ease-in;
+            -webkit-transition: 900ms ease-in;
+        }
+
+        .cash-clear-block.clear {
+            box-shadow: 0 0 80px red;
+            opacity: .5;
+        }
+
+        .cash-clear-block:hover {
+            background-color: black;
+        }
+
+        .cash-clear-block .btn_clear {
+            font-size: 50px;
+            color: black;
+            font-family: 'Lobster', cursive;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 100px;
+            transition: 900ms ease-in;
+            -o-transition: 900ms ease-in;
+            -mozila-transition: 900ms ease-in;
+            -webkit-transition: 900ms ease-in;
+        }
+
+        .cash-clear-block .btn_clear:hover {
+            color: white;
+        }
